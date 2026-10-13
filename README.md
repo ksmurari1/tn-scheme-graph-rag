@@ -66,6 +66,16 @@ The current Neo4j load contains 8 Department nodes, 123 Scheme nodes, and 123 `O
 
 ## Knowledge graph visualizations
 
+
+## 🏗️ System Architecture
+
+SmartAgri AI combines Knowledge Graph technology, retrieval-augmented generation (RAG), and an interactive Streamlit interface to help users explore Tamil Nadu agriculture schemes.
+
+![SmartAgri AI — Knowledge Graph RAG Architecture](images/smartagri-architecture.png)
+
+*End-to-end architecture: Data Sources → Ingestion & Processing → Vector Store and Knowledge Graph → Retrieval & RAG → Streamlit Application.*
+
+
 ### Query-specific graph
 
 The query-focused visualization connects the current question to the schemes retrieved for that question. The question-to-scheme links are visualization links indicating retrieval, not persisted government-domain relationships.
