@@ -1,0 +1,1 @@
+Place verified screenshots and project-owned diagrams here. Do not commit secrets or unreviewed raw government data.
